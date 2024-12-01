@@ -466,4 +466,32 @@ header nav ul li a:hover {
     transform: scale(1.1);
     background-color: #005642;
 }
+/* Pre mobily (šírka do 768px) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Menšie písmo */
+    }
+    .container {
+        padding: 10px; /* Užšie okraje */
+    }
+}
 
+/* Pre tablety (šírka 768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Pre väčšie obrazovky (nad 1024px) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        padding: 30px;
+    }
+}
